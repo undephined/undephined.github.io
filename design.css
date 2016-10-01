@@ -1,0 +1,173 @@
+body
+{
+	font-family: "Roboto Condensed";
+	background: #FFFFFF;
+	color: #101010;
+	margin: 0px;
+
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	color: #1010AF;
+	text-decoration: none;
+
+	-webkit-transition: color 0.5s;
+}
+a:hover
+{
+	color: #AF1010;
+}
+
+
+div#head
+{
+	display: block;
+/*	background: #AF1010; */
+	color: #070707;
+	overflow: hidden;
+
+	white-space: nowrap;
+
+	-webkit-transition: width 1s;
+}
+
+div#nav
+{
+	display: block;
+	background: #AF1010;
+	color: #FFFFFF;
+	overflow: hidden;
+
+	padding: 0px;
+
+	white-space: nowrap;	
+}
+
+div#nav div.item
+{
+	display: inline;
+	padding: 16px;
+	border: 1px solid #FFFFFF;
+	
+	cursor: default;
+
+	font-size: 1.4em;
+
+	-webkit-transition: background 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+div#nav div.item.active
+{
+	color: #FFFFFF;
+	background: #000000;
+}
+
+div#nav div.item:hover
+{
+	background: #000000;
+	color: #AF1010;
+}
+
+div#head.hidden
+{
+	width: 0px;
+}
+
+div#head.visible
+{
+	width: 100%;
+}
+
+div#head div
+{
+	padding: 16px;
+}
+
+div#head div h1
+{
+	font-size: 3em;
+	margin: 0px;
+
+	color: black;
+/*
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+*/
+	-webkit-transition: color 0.25s linear;
+}
+
+div#head div h1:hover
+{
+	color: #AF1010;
+}
+
+div#head div h1 em
+{
+	font-style: normal;
+	-webkit-transition: color 0.25s linear;
+}
+
+div#head div h1 em:hover
+{
+	color: #CF2020;
+}
+
+div#head div h1 em#De
+{
+	font-size: +1.4em;
+	
+}
+
+div#head div h1 em#Phi
+{
+	font-size: +1.7em;
+}
+
+div#head div h2
+{
+	font-size: 1em;
+	margin: 0px;
+}
+
+div#head div p
+{
+	font-size: 0.6em;
+	font-style: italic;
+	margin: 4px;
+}
+
+div#content
+{
+	margin: 32px;
+	opacity: 1.0;
+	
+	-webkit-transition: opacity 0.5s linear;
+}
+
+div#content.loading
+{
+	opacity: 0.0;
+}
+
+div#content h1
+{
+	border-bottom: 2px solid #AF1010;
+}
+
+
+
+div.reel
+{
+	opacity: 0.0;
+}
+
